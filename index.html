@@ -1,0 +1,32 @@
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="frontend/css/style.css">
+   <script src="frontend/js/jquery.min.js"></script>
+</head>
+
+<body>
+  <br>
+  <h1 class='title'>YOLOv5目标检测Flask Web部署演示</h1>
+
+  <div id="container">
+    <img src="frontend/demo_images/demo.jpg" id="image" class="center">
+    <img src="frontend/demo_images/demo.jpg" id="image2" class="center">
+    <img src="frontend/demo_images/demo.jpg" id="image3" class="center">
+    <div id="text-container">
+      <p id="instruction" class="red-color">
+      <button id="uploader-btn" onClick="clickUploader()">上传文件</button>
+      <p id="warning" class="result-color"></p>
+      <p class="result-color">
+         检测结果：
+      </p>
+      <input name="imgFile" type="file" id="fileUploader" accept="image/*" onChange="handleFiles()">
+      <input name="imgFile2" type="file" id="fileUploader2" accept="image/*" onChange="handleFiles()">
+      <input name="imgFile3" type="file" id="fileUploader3" accept="image/*" onChange="handleFiles()">
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <script src="frontend/js/index.js"></script>
+</body>
+</html>
