@@ -41,14 +41,14 @@ class MLCA(nn.Module):
         y_local_transpose=y_local.reshape(b, self.local_size * self.local_size,c).transpose(-1,-2).view(b,c, self.local_size , self.local_size)
         # y_global_transpose = y_global.view(b, -1).transpose(-1, -2).unsqueeze(-1)
         y_global_transpose = y_global.view(b, -1).unsqueeze(-1).unsqueeze(-1)  # 代码修正
-        print(y_global_transpose.size())
+        # print(y_global_transpose.size())
         # 反池化
         att_local = y_local_transpose.sigmoid()
         att_global = F.adaptive_avg_pool2d(y_global_transpose.sigmoid(),[self.local_size, self.local_size])
-        print(att_local.size())
-        print(att_global.size())
+        # print(att_local.size())
+        # print(att_global.size())
         att_all = F.adaptive_avg_pool2d(att_global*(1-self.local_weight)+(att_local*self.local_weight), [m, n])
-        print(att_all.size())
+        # print(att_all.size())
         x=x*att_all
         return x
 
