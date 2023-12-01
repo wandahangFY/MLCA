@@ -1,6 +1,5 @@
 # Mixed Local Channel Attention for Object Detection
 
-![主图](链接到主图的URL)
 
 ## 简介
 本项目介绍了一种轻量级的 Mixed Local Channel Attention (MLCA) 模块，该模块同时考虑通道信息和空间信息，并结合局部信息和全局信息以提高网络的表达效果。基于该模块，我们提出了 MobileNet-Attention-YOLO(MAY) 算法，用于比较各种注意力模块的性能。在 Pascal VOC 和 SMID 数据集上，MLCA 相对于其他注意力技术更好地平衡了模型表示效果、性能和复杂度。与 PASCAL VOC 数据集上的 Squeeze-and-Excitation(SE) 注意力机制和 SIMD 数据集上的 Coordinate Attention(CA) 方法相比，mAP 分别提高了 1.0% 和 1.5%。
@@ -44,3 +43,11 @@ D. Wan, R. Lu, S. Shen, T. Xu, X. Lang, Z. Ren. (2023). Mixed local channel atte
 - [SqueezeNet](https://github.com/DeepScale/SqueezeNet)
 - [GradCAM可视化部分视频教程（YOLOv5,YOLOv7,YOLOv8）](https://b23.tv/KxDrHqe)
 - [GradCAM原理讲解视频]( https://b23.tv/ZMF6vnx)
+
+
+## 结尾
+感谢您对本项目的关注和支持。作者尽力提供最好的质量和服务，但仍然有很多需要改进之处。如果您发现任何问题或有任何建议，请告诉我。
+另外，本项目目前由我个人维护，难免存在疏漏和错误。如果您发现了任何问题，欢迎提出建议和意见。
+
+## 其他开源项目
+其余开源项目陆续在整理发布，后续请查看作者主页进行下载
