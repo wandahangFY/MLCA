@@ -19,7 +19,7 @@
 - [Mixed Local Channel Attention 视频解读和二次创新方案](https://b23.tv/zwFzgKm) 
 
 ## 引用格式
-如果您使用了我们的项目，请引用以下论文：
+如果项目和文章对您有所帮助，请引用以下论文：
 
 @article{WAN2023106442,
 title = {Mixed local channel attention for object detection},
