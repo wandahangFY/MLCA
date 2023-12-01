@@ -1062,7 +1062,8 @@ class MLCA(nn.Module):
 
         # (b,c,local_size,local_size) <- (b,c,local_size*local_size)<-(b,local_size*local_size,c) <- (b,1,local_size*local_size*c)
         y_local_transpose=y_local.reshape(b, self.local_size * self.local_size,c).transpose(-1,-2).view(b,c, self.local_size , self.local_size)
-        y_global_transpose = y_global.view(b, -1).transpose(-1, -2).unsqueeze(-1)
+        # y_global_transpose = y_global.view(b, -1).transpose(-1, -2).unsqueeze(-1)
+        y_global_transpose = y_global.view(b, -1).unsqueeze(-1).unsqueeze(-1)  # 代码修正
 
         # 反池化
         att_local = y_local_transpose.sigmoid()
