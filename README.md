@@ -10,7 +10,7 @@
 ![MLCA简图如下：](MLCA-flow.png)
 
 ## 论文链接
-- [Mixed Local Channel Attention for Object Detection](论文链接)
+- [Mixed Local Channel Attention for Object Detection](https://www.sciencedirect.com/science/article/abs/pii/S0952197623006267)
 
 ## 中文解读链接
 - [Mixed Local Channel Attention中文解读](中文解读链接) [TODO: 如有需要，会在后面编写并更新]
@@ -51,3 +51,4 @@ D. Wan, R. Lu, S. Shen, T. Xu, X. Lang, Z. Ren. (2023). Mixed local channel atte
 
 ## 其他开源项目
 其余开源项目陆续在整理发布，后续请查看作者主页进行下载
+[主页](https://github.com/wandahangFY)
