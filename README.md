@@ -16,7 +16,10 @@
 - [Mixed Local Channel Attention中文解读](中文解读链接) [TODO: 如有需要，会在后面编写并更新]
 
 ## 视频教程链接
-- [Mixed Local Channel Attention 视频解读和二次创新方案](https://b23.tv/zwFzgKm) 
+- [Mixed Local Channel Attention 视频解读和二次创新方案](https://www.bilibili.com/video/BV1ju4y1c7ww/) 
+
+## 二次创新点梳理和代码实现（TODO）
+
 
 ## 引用格式
 如果项目和文章对您有所帮助，请引用以下论文：
@@ -41,8 +44,8 @@ D. Wan, R. Lu, S. Shen, T. Xu, X. Lang, Z. Ren. (2023). Mixed local channel atte
 - [GradCAM可视化部分和部分模块参考代码](https://github.com/z1069614715/objectdetection_script)
 - [ECA](https://github.com/BangguWu/ECANet)
 - [SqueezeNet](https://github.com/DeepScale/SqueezeNet)
-- [GradCAM可视化部分视频教程（YOLOv5,YOLOv7,YOLOv8）](https://b23.tv/KxDrHqe)
-- [GradCAM原理讲解视频]( https://b23.tv/ZMF6vnx)
+- [GradCAM可视化部分视频教程（无需改动源码）（YOLOv5,YOLOv7,YOLOv8）](https://www.bilibili.com/video/BV1WP4y1v7gQ/)
+- [GradCAM原理讲解视频]( https://www.bilibili.com/video/BV1PD4y1B77q/)
 
 
 ## 结尾
@@ -52,3 +55,10 @@ D. Wan, R. Lu, S. Shen, T. Xu, X. Lang, Z. Ren. (2023). Mixed local channel atte
 ## 其他开源项目
 其余开源项目陆续在整理发布，后续请查看作者主页进行下载
 [主页](https://github.com/wandahangFY)
+
+## 相关问题解答
+1. README.md 文件添加 （已完成）  
+2. 热力图可视化部分 文件添加，yolo-gradcam （已完成，搬运的 objectdetection_script 开源项目，在链接内有详细教程，将yolov5_headmap.py放在根目录即可正常使用，YOLOv7和YOLOv8同理）
+3. 项目环境配置（MLCA模块是即插即用的,整个项目是YOLOv5-6.1版本，配置参考README-YOLOv5.md文件和requirements.txt）
+4. 文件夹对应说明（与YOLOv5-6.1保持一致，未改变超参数）（TODO：详细说明 ）
+5. 二次创新点梳理和代码实现（TODO）
