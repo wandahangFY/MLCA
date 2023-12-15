@@ -62,3 +62,6 @@ D. Wan, R. Lu, S. Shen, T. Xu, X. Lang, Z. Ren. (2023). Mixed local channel atte
 3. 项目环境配置（MLCA模块是即插即用的,整个项目是YOLOv5-6.1版本，配置参考README-YOLOv5.md文件和requirements.txt）
 4. 文件夹对应说明（与YOLOv5-6.1保持一致，未改变超参数）（TODO：详细说明 ）
 5. 二次创新点梳理和代码实现（TODO）
+6. 论文作图（期刊版权问题，不提供ppt源文件，见谅）：
+   - 原理图，网络结构图，流程图：PPT （根据个人选择，也可以使用Visio，亿图，AI等）
+   - 实验对比：Orgin（matlab,python,R,Excel都可以）
