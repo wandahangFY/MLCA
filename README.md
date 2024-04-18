@@ -62,3 +62,7 @@ Other open-source projects will be organized and released gradually. Please chec
 6. Paper figures (due to journal copyright issues, no PPT source files are provided, apologies):
    - Diagrams, network structure visuals, flowcharts: PPT (personal choice, can also use Visio, Edraw, AI, etc.)
    - Experimental comparisons: Origin (Matlab, Python, R, Excel all applicable)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wandahangFY/MLCA&type=Date)](https://star-history.com/#wandahangFY/MLCA&Date)
